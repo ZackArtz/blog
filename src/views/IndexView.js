@@ -2,6 +2,12 @@
 
 import React from 'react'
 import { createScope, map, transformProxies } from './helpers'
+import PostView from './PostView'
+import PostView from './PostView'
+import PostView from './PostView'
+import PostView from './PostView'
+import PostView from './PostView'
+import PostView from './PostView'
 
 const scripts = [
   fetch("https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5f166dff79f98fa4570f5b3f").then(body => body.text()),
@@ -78,30 +84,12 @@ class IndexView extends React.Component {
             </div>
             <div className="w-container">
               <div className="w-layout-grid af-class-grid">
-                <a wfr-c="true" id="w-node-e763fd7cd56c-e60f5b40" href="#" className="af-class-post w-inline-block">
-                  <h6 className="af-class-date">06-12-20</h6>
-                  <h1 className="af-class-post-title">How to setup a Node.JS app on your own server.</h1>
-                </a>
-                <a wfr-c="true" id="w-node-9e7aace3f62d-e60f5b40" href="#" className="af-class-post w-inline-block">
-                  <h6 wfr-c="true" className="af-class-date">06-12-20</h6>
-                  <h1 className="af-class-post-title">How to setup a Node.JS app on your own server.</h1>
-                </a>
-                <a wfr-c="true" id="w-node-09d34913fa28-e60f5b40" href="#" className="af-class-post w-inline-block">
-                  <h6 className="af-class-date">06-12-20</h6>
-                  <h1 className="af-class-post-title">How to setup a Node.JS app on your own server.</h1>
-                </a>
-                <a wfr-c="true" id="w-node-b880632a188c-e60f5b40" href="#" className="af-class-post w-inline-block">
-                  <h6 className="af-class-date">06-12-20</h6>
-                  <h1 className="af-class-post-title">How to setup a Node.JS app on your own server.</h1>
-                </a>
-                <a wfr-c="true" id="w-node-4af1e0a81f76-e60f5b40" href="#" className="af-class-post w-inline-block">
-                  <h6 className="af-class-date">06-12-20</h6>
-                  <h1 className="af-class-post-title">How to setup a Node.JS app on your own server.</h1>
-                </a>
-                <a wfr-c="true" id="w-node-fea94191f5f1-e60f5b40" href="#" className="af-class-post w-inline-block">
-                  <h6 className="af-class-date">06-12-20</h6>
-                  <h1 className="af-class-post-title">How to setup a Node.JS app on your own server.</h1>
-                </a>
+                <PostView.Controller />
+                <PostView.Controller />
+                <PostView.Controller />
+                <PostView.Controller />
+                <PostView.Controller />
+                <PostView.Controller />
               </div>
             </div>
             <div className="af-class-footer">
