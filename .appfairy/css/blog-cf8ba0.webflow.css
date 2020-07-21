@@ -267,10 +267,13 @@
 .abv-title {
   color: #4d4d4d;
   text-align: center;
+  text-decoration: none;
 }
 
 .title {
+  color: #f5f5f5;
   font-size: 50px;
+  line-height: 50px;
   text-align: center;
 }
 
@@ -289,6 +292,32 @@
   padding-bottom: 20px;
   color: #414141;
   text-align: center;
+}
+
+.body-2 {
+  background-color: #0c0c0c;
+  font-family: Rooberttrial, sans-serif;
+}
+
+.paragraph {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  color: #4d4d4d;
+  text-align: center;
+}
+
+.text-span {
+  text-decoration: underline;
+}
+
+.paragraph-2 {
+  color: #919191;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.container-4 {
+  padding: 15px;
 }
 
 @media screen and (max-width: 991px) {
